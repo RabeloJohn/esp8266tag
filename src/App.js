@@ -1,7 +1,7 @@
 function App() {
   return (
     <div>
-      My new project
+      My most recent project. Updates coming soon!
     </div>
   );
 }
