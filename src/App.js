@@ -17,6 +17,7 @@ function App() {
     <div>
       <button onClick={TOn}>Turn On</button>
       <button onClick={TOff}>Turn Off</button>
+      <p>New features coming soon</p>
     </div>
   );
 }
