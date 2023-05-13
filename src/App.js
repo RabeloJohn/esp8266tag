@@ -1,24 +1,18 @@
+import { Route, Routes } from "react-router-dom";
+import NavBarpg from "./pages/NavBar.";
+import ItemListPg from "./pages/ItemsList";
+import AddItemPg from "./pages/AddItem";
+
+
 function App() {
-
-  function TOff (){
-    const xhr = new XMLHttpRequest();
-    xhr.open('GET', 'http://192.168.0.51/gpio/1');
-    xhr.send();
-  }
-
-
-  function TOn (){
-    const xhr = new XMLHttpRequest();
-    xhr.open('GET', 'http://192.168.0.51/gpio/0');
-    xhr.send();
-  }
-
-  return (
+  return(
     <div>
-      <button onClick={TOn}>Turn On</button>
-      <button onClick={TOff}>Turn Off</button>
-      <p>New features coming up soon</p>
-      <button>Add a tag</button>
+      <Routes>
+        <Route path='/' element={<NavBarpg/>}>
+          <Route index element={<ItemListPg/>}/>
+          <Route path='additem' element={<AddItemPg/>} />
+        </Route>
+      </Routes>
     </div>
   );
 }
