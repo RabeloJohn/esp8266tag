@@ -1,5 +1,22 @@
+.myListContainer{
+    min-height: calc(100vh - 200px);
+}
+
 .listOrganiser{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.title{
+    margin-top: 60px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.notice{
+    text-align: center;
+    width: 80vw;
+    font-size: 20px;
+    margin-top: 6   0px;
 }

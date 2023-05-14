@@ -1,0 +1,12 @@
+.footerDiv{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.footerP{
+    color: wheat;
+}
