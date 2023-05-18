@@ -5,7 +5,7 @@ import { ItmCxt } from '../store/itemsContext';
 import Light from '../assets/bulb.svg' 
 import TV from '../assets/tv.svg'
 import Speaker from '../assets/speaker.svg' 
-import AirConditioner from '../assets/airconditioner.svg'  
+import AirConditioner from '../assxets/airconditioner.svg'  
 
 function SingleItempg(props){
 
